@@ -1,0 +1,36 @@
+header{
+  background-color: #302928;
+  height: 31px;
+  word-spacing: 20px;
+  width: 100%
+}
+
+ul li{
+overflow:hidden;
+display:inline;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.satu, .dua, .tiga{
+  column-count: 4;
+  column-fill: balance;
+  column-rule: 2px solid black;
+  text-align: justify;
+}
+
+.title{
+  column-span: all;
+}
+
+footer{
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
